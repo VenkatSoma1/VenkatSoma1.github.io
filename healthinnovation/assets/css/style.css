@@ -743,6 +743,11 @@ p {
     position: relative;
     top: -5px; }
 
+
+.header-hero2 {
+  height: 700px; 
+}
+
 /*===== HEADER HERO =====*/
 .header-hero {
   position: relative;
@@ -751,13 +756,22 @@ p {
   height: 700px; }
   @media only screen and (min-width: 1400px) {
     .header-hero {
-      height: 900px; } }
+      height: 900px; 
+    }
+  }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero {
-      height: auto; } }
+      height: auto; } 
+      .header-hero2 {
+        height: auto; 
+      } 
+    }
   @media (max-width: 767px) {
     .header-hero {
-      height: auto; } }
+      height: auto; }
+      .header-hero2 {
+        height: auto; 
+      } }
   .header-hero .shape {
     position: absolute; }
     .header-hero .shape.shape-1 {
@@ -1479,6 +1493,10 @@ p {
   line-height: 1em;
 }
 
+.footerHeaderBold{
+  font-size: 5rem !important;
+}
+
 .rightMenu {
   position: absolute !important;
   right: 0;
@@ -1508,17 +1526,26 @@ p {
     .headerBold {
       font-size: 6rem;
     }
+    .footerHeaderBold{
+      font-size: 5rem !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .headerBold {
     font-size: 5rem;
   }
+  .footerHeaderBold{
+    font-size: 3rem !important;
+  }
 }
 
 @media (max-width: 767px) { 
   .headerBold {
     font-size: 4rem;
+  }
+  .footerHeaderBold{
+    font-size: 3rem;
   }
 }
 
@@ -1563,7 +1590,7 @@ p {
 }
 
 .yel {
-  color: #dcdc3c !important;
+  color: #ffda00 !important;
 }
 
 .bg-image {
@@ -1665,3 +1692,35 @@ p {
   margin-top: -50px;
 }
 
+
+.faqSection p{
+  color: #000000 !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.fatQuestions {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 18px;
+}
+
+.footerText {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  font-size: 25px;
+}
+
+#gotoTop {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 4px;
+  width: 80px;
+  right: 10px;
+}
