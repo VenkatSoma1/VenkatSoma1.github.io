@@ -1,2 +1,2 @@
-Template Name: Resume and projects
+Name: Resume and projects
 Author: Venkat
